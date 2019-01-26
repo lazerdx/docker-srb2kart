@@ -1,5 +1,5 @@
 # docker-srb2kart
-This dockerfile was built for the purpose of making srb2kart dedicated server deployment more streamlined.
+This dockerfile was built for the purpose of making [srb2kart dedicated server](https://mb.srb2.org/showthread.php?t=43708) deployment more streamlined.
 The built image can be found at: https://cloud.docker.com/repository/docker/lazerdx/srb2kart
 
 You can run the image once built as such:
