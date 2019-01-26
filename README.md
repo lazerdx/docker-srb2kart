@@ -4,7 +4,7 @@ The built image can be found at: https://cloud.docker.com/repository/docker/laze
 
 You can run the image once built as such:
 
-docker run -d -i -t -p :5029:5029/udp --name (container name) -v ${PWD}:/root/.srb2kart (image name) -room 33 -bindaddr 172.17.0.2 (if you have mods add "-file" then your list of mods delimited by space ie "-file bonuschars.kart somemod.kart")
+docker run -d -i -t -p (host-ip to map to):5029:5029/udp --name (container name) -v ${PWD}:/root/.srb2kart (image name) -room 33 -bindaddr 172.17.0.2 (if you have mods add "-file" then your list of mods delimited by space ie "-file bonuschars.kart somemod.kart")
 
 You can provide additional srb2kart command flags as needed at the end of the command. The software automatically runs under the "-dedicated" flag.
 
